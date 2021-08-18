@@ -4,7 +4,7 @@ import multer from 'multer'
 import fs from 'fs'
 
 // App Imports
-import params from '../config/params'
+import params from '../config/params.json'
 import { slug } from '../helpers/utils'
 import Candidate from '../../modules/candidate/model'
 

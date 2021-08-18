@@ -17,7 +17,7 @@ var _multer = _interopRequireDefault(require("multer"));
 
 var _fs = _interopRequireDefault(require("fs"));
 
-var _params = _interopRequireDefault(require("../config/params"));
+var _params = _interopRequireDefault(require("../config/params.json"));
 
 var _utils = require("../helpers/utils");
 

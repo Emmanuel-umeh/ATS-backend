@@ -6,13 +6,8 @@
   "scripts": {
     "seed": "babel-node src/setup/server/seeder.js",
     "setup": "npm install && npm run seed",
-
-    "clean": "del /f /q /s build && mkdir build",
-    "start": "node ./build/index.js",
-    "build-babel": "babel -d ./build ./src -s",
-    "build": "npm run build-babel",
-
-
+    "start": "node src/index.js --exec babel-node",
+    
     "start:prod": "npm run build:prod && npm run start:server",
     "build:prod": "babel src -s -D -d build",
     "start:server": "node build/index.js"
