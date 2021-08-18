@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/modules/email/template/view.js"],"names":["view","html"],"mappings":";;;;;;;AAAA,IAAMA,IAAI,GAAG,SAAPA,IAAO,CAACC,IAAD;AAAA,SAAUA,IAAV;AAAA,CAAb;;eAEeD,I","sourcesContent":["const view = (html) => html\r\n\r\nexport default view\r\n"],"file":"view.js"}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/modules/activity/index.js"],"names":["query"],"mappings":";;;;;;;;;;;;;AACA;;;;;;iCAGKA,K","sourcesContent":["// App Imports\r\nimport * as query from './query'\r\n\r\nexport default {\r\n  ...query\r\n}\r\n"],"file":"index.js"}
