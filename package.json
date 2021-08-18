@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "API application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "seed": "babel-node src/setup/server/seeder.js",
     "setup": "npm install && npm run seed",
-    "start": "node src/index.js --exec babel-node",
+    "start": "npm run build:prod && npm run start:server",
     "start:prod": "npm run build:prod && npm run start:server",
     "build:prod": "babel src -s -D -d build",
     "start:server": "node build/index.js"
