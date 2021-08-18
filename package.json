@@ -7,7 +7,6 @@
     "seed": "babel-node src/setup/server/seeder.js",
     "setup": "npm install && npm run seed",
     "start": "node src/index.js --exec babel-node",
-    "heroku-postbuild": "npm install && npm run seed", 
     "start:prod": "npm run build:prod && npm run start:server",
     "build:prod": "babel src -s -D -d build",
     "start:server": "node build/index.js"
@@ -34,7 +33,15 @@
     "nodemailer": "6.4.18",
     "prop-types": "15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "@babel/cli": "7.13.0",
+    "@babel/core": "7.13.1",
+    "@babel/node": "7.13.0",
+    "@babel/plugin-transform-runtime": "7.13.7",
+    "@babel/preset-env": "7.13.5",
+    "@babel/preset-react": "7.12.13",
+    "@babel/runtime": "7.13.7",
+    "nodemon": "2.0.7"
   },
   "devDependencies": {
     "@babel/cli": "7.13.0",
