@@ -1,0 +1,12 @@
+node_modules/
+build/
+
+.env.local
+.env.prod
+
+uploads/*
+!uploads/.gitkeep
+!uploads/resume.pdf
+
+public/images/user/*
+!public/images/user/default.jpg
