@@ -14,10 +14,13 @@ export default function (server) {
   console.info('SETUP - Middlewares..')
 
   // Enable CORS
-  server.use(cors({
-    origin: [WEB_URL, MOBILE_URL],
-    default: WEB_URL
-  }))
+  server.use(cors(
+  //   {
+  //   origin: [WEB_URL, MOBILE_URL],
+  //   default: WEB_URL
+  // }
+  
+  ))
 
   // Request body parser
   server.use(bodyParser.json())
